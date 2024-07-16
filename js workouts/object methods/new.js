@@ -115,7 +115,7 @@
 
             console.log(one);
 
-            one.name="kunnan" //not possible because its freezed
+            one.name="man" //not possible because its freezed
 
             console.log(one);
 
@@ -171,7 +171,7 @@
                 }
             })
 
-             delete minna.name
+            delete minna.name
             delete minna.address.house
             minna.address.house="varattipparachetta"
             console.log(minna);

@@ -33,7 +33,6 @@
 function one() {
     return new Promise((resolve) => {
       setTimeout(function () {
-        console.log("one");
         let d = 10;
         resolve(d);
       }, 1000);
@@ -43,7 +42,6 @@ function one() {
   function two(d) {
     return new Promise((resolve) => {
       setTimeout(function () {
-        console.log("two");
         console.log(d);
         resolve();
       }, 1000);
@@ -53,7 +51,6 @@ function one() {
   function three() {
     return new Promise((resolve) => {
       setTimeout(function () {
-        console.log("three");
         resolve();
       }, 1000);
     });
